@@ -154,6 +154,7 @@ html{
     box-shadow: 0 3px 0 black;
     line-height: 8rem;
     margin:2rem;
+    text-align: center;
 }
 .product .content{
     padding:0rem 0rem;
@@ -613,6 +614,14 @@ html{
     .product .content img{
         width:17rem;
     }
+    .hero .navigasi a{
+        margin:auto;
+        height:8%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+    }
 }
 @media (max-width:550px){
     .product .content img{
@@ -644,6 +653,7 @@ html{
     .home p{
         width:80%;
         font-size: 2.3rem;
+        margin:auto;
     }
     .skill .header{
         padding:1rem;
@@ -654,7 +664,7 @@ html{
         padding:2rem;
     }
     .contact .header{
-        margin:0;
+        margin:7rem 0;
         text-align: center;
         padding:1rem;
     }
@@ -749,7 +759,6 @@ html{
     .product .content img{
         height:17rem;
     }
-
 }
 @media (max-width:480px){
     .product .content1{
